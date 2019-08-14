@@ -7,6 +7,6 @@ public class ReStart : MonoBehaviour {
 
 public void RestartGame()
     {
-        SceneManager.LoadScene("ARCarAcci1");
+        SceneManager.LoadScene("test1");
     }
 }

@@ -1,18 +1,14 @@
 ﻿<Properties StartupConfiguration="{C4CEF581-8DD0-EF0B-FA48-9F02F06F444D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/Scene1/Scene1CarMove.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/IRobiTest.cs">
     <Files>
       <File FileName="Assets/script/CanvasAppear.cs" Line="24" Column="107" />
-      <File FileName="Assets/script/Scene1/Scene1AlertCanvasAppear.cs" Line="39" Column="35" />
+      <File FileName="Assets/script/Scene1/Scene1AlertCanvasAppear.cs" Line="22" Column="48" />
+      <File FileName="Assets/script/Scene1/Scene1MoveWheel.cs" Line="25" Column="6" />
       <File FileName="Assets/script/Scene2/Scene2AlertCanvasAppear.cs" Line="22" Column="48" />
       <File FileName="Assets/script/Scene3/Scene3MoveWheel.cs" Line="27" Column="1" />
       <File FileName="Assets/script/Scene3/Scene3MoveWhiteCarWheel.cs" Line="7" Column="1" />
       <File FileName="Assets/script/Scene3/Scene3AlertCanvasAppear.cs" Line="22" Column="48" />
-      <File FileName="Assets/script/ReStart.cs" Line="10" Column="43" />
-      <File FileName="Assets/script/BeizerFollow.cs" Line="6" Column="2" />
-      <File FileName="Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs" Line="106" Column="36" />
-      <File FileName="Assets/script/Scene1/Scene1BeizerFollow.cs" Line="8" Column="36" />
-      <File FileName="Assets/script/Scene1/Scene1MoveWheel.cs" Line="25" Column="6" />
-      <File FileName="Assets/script/Scene1/Scene1CarMove.cs" Line="18" Column="6" />
+      <File FileName="Assets/script/IRobiTest.cs" Line="22" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

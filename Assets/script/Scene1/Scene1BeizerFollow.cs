@@ -4,9 +4,6 @@ using UnityEngine;
 
 public class Scene1BeizerFollow : MonoBehaviour
 {
-    public GameObject gameObContainingDefaultTrackableEventHandler;
-    public bool startMovingCarWhite;
-
     [SerializeField]
     private Transform[] routes;
 
@@ -37,7 +34,6 @@ public class Scene1BeizerFollow : MonoBehaviour
         //vehiclePassedPoint2 = false;
         //vehiclePassedPoint3 = false;
         vehiclePassedPoint4 = false;
-        startMovingCarWhite = false;
 
     }
 
@@ -71,29 +67,24 @@ public class Scene1BeizerFollow : MonoBehaviour
         Vector3 p2 = routes[routeNumber].GetChild(2).position;
         Vector3 p3 = routes[routeNumber].GetChild(3).position;
 
-        DefaultTrackableEventHandler DefaultTrackableEventHandlerScript = gameObContainingDefaultTrackableEventHandler.GetComponent<DefaultTrackableEventHandler>();
+        while (tParam < 1)
+        {
+            tParam += Time.deltaTime * speedModifier;
 
-        //if (DefaultTrackableEventHandlerScript.imageTrackedTrue == true)
-        //{
-            while (tParam < 1)
-            {
-                tParam += Time.deltaTime * speedModifier;
+            busPosition = Mathf.Pow(1 - tParam, 3) * p0 + 3 * Mathf.Pow(1 - tParam, 2) * tParam * p1 + 3 * (1 - tParam) * Mathf.Pow(tParam, 2) * p2 + Mathf.Pow(tParam, 3) * p3;
 
-                busPosition = Mathf.Pow(1 - tParam, 3) * p0 + 3 * Mathf.Pow(1 - tParam, 2) * tParam * p1 + 3 * (1 - tParam) * Mathf.Pow(tParam, 2) * p2 + Mathf.Pow(tParam, 3) * p3;
+            transform.position = busPosition;
 
-                transform.position = busPosition;
-
-                //rotate bus
-                //if (transform.position.x > p1.x)
-                //{
-                //    //print(transform.rotation);
-                //    //print("start rotating");
-                //    //transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(-90, 170, 0), Time.deltaTime * rotationSpeed);
-                //    vehiclePassedPoint2 = true;
-                //}
-
-                yield return new WaitForEndOfFrame();
+            //rotate bus
+            //if (transform.position.x > p1.x)
+            //{
+            //    //print(transform.rotation);
+            //    //print("start rotating");
+            //    //transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(-90, 170, 0), Time.deltaTime * rotationSpeed);
+            //    vehiclePassedPoint2 = true;
             //}
+
+            yield return new WaitForEndOfFrame();
         }
 
         //if (transform.position.x >= p2.x)
