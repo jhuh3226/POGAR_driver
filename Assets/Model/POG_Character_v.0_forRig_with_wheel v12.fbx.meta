@@ -1,0 +1,214 @@
+fileFormatVersion: 2
+guid: bfc1bb5f2d5ad4744ad60c62c1fc8a8c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 5_roadsigns v2
+    100002: 5_roadsigns v2:1
+    100004: Body
+    100006: Body1
+    100008: Body1 1
+    100010: Body10
+    100012: Body11
+    100014: Body12
+    100016: Body13
+    100018: Body2
+    100020: Body2 1
+    100022: Body4
+    100024: Body5
+    100026: Body8
+    100028: Body9
+    100030: Body:1
+    100032: borderbody
+    100034: car
+    100036: car:1
+    100038: Component8
+    100040: Component8:1
+    100042: head
+    100044: head:1
+    100046: innerbody
+    100048: leftHead
+    100050: middleHead
+    100052: //RootNode
+    100054: rightHead
+    100056: Toy_Car_01 v3
+    100058: Toy_Car_01 v3:1
+    100060: wheel
+    400000: 5_roadsigns v2
+    400002: 5_roadsigns v2:1
+    400004: Body
+    400006: Body1
+    400008: Body1 1
+    400010: Body10
+    400012: Body11
+    400014: Body12
+    400016: Body13
+    400018: Body2
+    400020: Body2 1
+    400022: Body4
+    400024: Body5
+    400026: Body8
+    400028: Body9
+    400030: Body:1
+    400032: borderbody
+    400034: car
+    400036: car:1
+    400038: Component8
+    400040: Component8:1
+    400042: head
+    400044: head:1
+    400046: innerbody
+    400048: leftHead
+    400050: middleHead
+    400052: //RootNode
+    400054: rightHead
+    400056: Toy_Car_01 v3
+    400058: Toy_Car_01 v3:1
+    400060: wheel
+    2100000: No Name
+    2100002: Steel - Satin
+    2100004: Aluminum - Bead Blasted
+    2100006: ABS (White)
+    2100008: Titanium - Satin
+    2100010: ABS (White)_modified
+    2100012: Leather - Matte (Dark Grey)
+    2100014: Coating - Black Oxide
+    2100016: Glass - Light Color (Blue)
+    2100018: Stainless Steel - Satin
+    2300000: Body1
+    2300002: Body1 1
+    2300004: Body10
+    2300006: Body11
+    2300008: Body12
+    2300010: Body13
+    2300012: Body2
+    2300014: Body2 1
+    2300016: Body4
+    2300018: Body5
+    2300020: Body8
+    2300022: Body9
+    2300024: borderbody
+    2300026: innerbody
+    2300028: leftHead
+    2300030: middleHead
+    2300032: rightHead
+    2300034: wheel
+    3300000: Body1
+    3300002: Body1 1
+    3300004: Body10
+    3300006: Body11
+    3300008: Body12
+    3300010: Body13
+    3300012: Body2
+    3300014: Body2 1
+    3300016: Body4
+    3300018: Body5
+    3300020: Body8
+    3300022: Body9
+    3300024: borderbody
+    3300026: innerbody
+    3300028: leftHead
+    3300030: middleHead
+    3300032: rightHead
+    3300034: wheel
+    4300000: middleHead
+    4300002: rightHead
+    4300004: leftHead
+    4300006: wheel
+    4300008: borderbody
+    4300010: innerbody
+    4300012: Body1
+    4300014: Body1
+    4300016: Body2
+    4300018: Body4
+    4300020: Body5
+    4300022: Body8
+    4300024: Body9
+    4300026: Body10
+    4300028: Body11
+    4300030: Body12
+    4300032: Body13
+    4300034: Body2
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
