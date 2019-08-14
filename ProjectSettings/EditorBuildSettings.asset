@@ -11,7 +11,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/test1.unity
     guid: d10df082f1998406aaadf89e12e69cfa
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Animation.unity
     guid: 7fb3dd46555eb4b25a6826ed47e66315
+  - enabled: 1
+    path: Assets/Scenes/ARCarAcci1.unity
+    guid: d2b5819cd7001444ba69d521ead616bc
   m_configObjects: {}

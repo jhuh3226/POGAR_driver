@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class BeizerFollow : MonoBehaviour
 {
-
     [SerializeField]
     private Transform[] routes;
 
