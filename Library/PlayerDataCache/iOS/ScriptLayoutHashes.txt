@@ -1,6 +1,6 @@
 iOS
 PlayerPath?
-/Users/junghuh/Google Drive/TAD/wonderlab/개인 연구/Unity_Kinect/Build/ARCarAcci1_140919_1/ARCarAcci1_140919_1/ARCarAcci1_140919_1/ARCarAcci1_140919_1/ARCarAcci1_140919_1/ARCarAcci1_140919_1
+/Users/junghuh/Google Drive/TAD/wonderlab/개인 연구/Unity_Kinect/Build/ARCarAcci1.4
 SceneListBegin?
 Assets/Scenes/ARCarAcci1.unity
 SceneListEnd?

@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{C4CEF581-8DD0-EF0B-FA48-9F02F06F444D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/Scene1/Scene1CarMove.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/Scene1/Scene1BeizerFollow.cs">
     <Files>
       <File FileName="Assets/script/CanvasAppear.cs" Line="24" Column="107" />
       <File FileName="Assets/script/Scene1/Scene1AlertCanvasAppear.cs" Line="39" Column="35" />
@@ -10,9 +10,9 @@
       <File FileName="Assets/script/ReStart.cs" Line="10" Column="43" />
       <File FileName="Assets/script/BeizerFollow.cs" Line="6" Column="2" />
       <File FileName="Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs" Line="106" Column="36" />
-      <File FileName="Assets/script/Scene1/Scene1BeizerFollow.cs" Line="8" Column="36" />
-      <File FileName="Assets/script/Scene1/Scene1MoveWheel.cs" Line="25" Column="6" />
-      <File FileName="Assets/script/Scene1/Scene1CarMove.cs" Line="18" Column="6" />
+      <File FileName="Assets/script/Scene1/Scene1BeizerFollow.cs" Line="26" Column="39" />
+      <File FileName="Assets/script/Scene1/Scene1MoveWheel.cs" Line="13" Column="6" />
+      <File FileName="Assets/script/Scene1/Scene1CarMove.cs" Line="20" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

@@ -15450,7 +15450,7 @@ extern "C" IL2CPP_METHOD_ATTR void Scene1CarMove_Update_m941768132 (Scene1CarMov
 		IL2CPP_RUNTIME_CLASS_INIT(Vector3_t3722313464_il2cpp_TypeInfo_var);
 		Vector3_t3722313464  L_5 = Vector3_Lerp_m407887542(NULL /*static, unused*/, L_1, L_2, ((float)il2cpp_codegen_multiply((float)L_3, (float)L_4)), /*hidden argument*/NULL);
 		NullCheck(L_0);
-		Transform_set_position_m3387557959(L_0, L_5, /*hidden argument*/NULL);
+		Transform_set_localPosition_m4128471975(L_0, L_5, /*hidden argument*/NULL);
 		return;
 	}
 }

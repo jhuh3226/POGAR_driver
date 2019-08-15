@@ -20,6 +20,6 @@ public class Scene1CarMove : MonoBehaviour
     void Update()
     {
         //transform.Translate(Vector3.left * speed * Time.deltaTime);
-        transform.position = Vector3.Lerp(startPosition, endPosition, speed * Time.deltaTime);
+        transform.localPosition = Vector3.Lerp(startPosition, endPosition, speed * Time.deltaTime);
     }
 }
