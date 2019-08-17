@@ -5,6 +5,7 @@ using UnityEngine;
 public class Scene3AlertCanvasAppear : MonoBehaviour
 {
     public Canvas scene3Alert;
+    public Canvas popUp3;
     float currentTime;
     public bool scene3Collided;
 
@@ -12,6 +13,7 @@ public class Scene3AlertCanvasAppear : MonoBehaviour
     void Start()
     {
         scene3Alert.enabled = false;
+        popUp3.enabled = false;
 
         scene3Collided = false;
     }
@@ -23,6 +25,12 @@ public class Scene3AlertCanvasAppear : MonoBehaviour
         {
             //print after 2second 
             scene3Alert.enabled = true;
+        }
+
+        if (Time.fixedTime - currentTime >= 2.8 && currentTime > 0)
+        {
+            //print after 2second
+            popUp3.enabled = true;
         }
     }
 

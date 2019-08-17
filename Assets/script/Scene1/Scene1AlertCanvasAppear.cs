@@ -5,6 +5,7 @@ using UnityEngine;
 public class Scene1AlertCanvasAppear : MonoBehaviour
 {
     public Canvas alert;
+    public Canvas popUp;
     public Canvas crash1;
     float currentTime;
     public bool scene1Collided;
@@ -14,6 +15,7 @@ public class Scene1AlertCanvasAppear : MonoBehaviour
     {
         alert.enabled = false;
         crash1.enabled = false;
+        popUp.enabled = false;
 
         scene1Collided = false;
     }
@@ -26,6 +28,13 @@ public class Scene1AlertCanvasAppear : MonoBehaviour
             //print after 2second 
             alert.enabled = true;
         }
+
+        if (Time.fixedTime - currentTime >= 2.8 && currentTime > 0)
+        {
+            //print after 2second
+            popUp.enabled = true;
+        }
+
     }
 
     void OnTriggerEnter(Collider other)

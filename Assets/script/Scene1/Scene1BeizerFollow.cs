@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Scene1BeizerFollow : MonoBehaviour
 {
-    public GameObject gameObContainingDefaultTrackableEventHandler;
+    //public GameObject gameObContainingDefaultTrackableEventHandler;
     public bool startMovingCarWhite;
 
     [SerializeField]
@@ -71,7 +71,7 @@ public class Scene1BeizerFollow : MonoBehaviour
         Vector3 p2 = routes[routeNumber].GetChild(2).position;
         Vector3 p3 = routes[routeNumber].GetChild(3).position;
 
-        DefaultTrackableEventHandler DefaultTrackableEventHandlerScript = gameObContainingDefaultTrackableEventHandler.GetComponent<DefaultTrackableEventHandler>();
+        //DefaultTrackableEventHandler DefaultTrackableEventHandlerScript = gameObContainingDefaultTrackableEventHandler.GetComponent<DefaultTrackableEventHandler>();
 
         //if (DefaultTrackableEventHandlerScript.imageTrackedTrue == true)
         //{
